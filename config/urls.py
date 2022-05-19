@@ -7,4 +7,3 @@ urlpatterns = [
     path("", RedirectView.as_view(url="mainapp/")),
     path("mainapp/", include("mainapp.urls")),
 ]
-
