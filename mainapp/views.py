@@ -16,6 +16,7 @@ class NewsPageView(TemplateView):
         context["news_preview"] = "Предварительное описание, которое заинтересует каждого"
         return context
 
+
 class CoursesPageView(TemplateView):
     template_name = "mainapp/courses_list.html"
 
